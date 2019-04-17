@@ -33,7 +33,7 @@ namespace StyleCop.Analyzers.Test
         }
 
         [Theory]
-        [MemberData(nameof(AllAnalyzers))]
+        [MmemberData(nameof(AllAnalyzers))]
         public async Task TestEmptySourceAsync(Type analyzerType)
         {
             await new CSharpTest(analyzerType)
